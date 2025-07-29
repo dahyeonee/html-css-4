@@ -1,0 +1,44 @@
+.box {
+  border: 50px solid red;
+  padding: 50px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.green {
+  border-color: green;
+}
+
+.blue {
+  border-color: blue;
+}
+
+.sun {
+  border-color: #f1c40f;
+}
+
+.mocha-mousse {
+  border-color: #a47864;
+}
+
+.h1 {
+  color: #9b59b6;
+}
+
+.sub-header {
+  color: #2980b9;
+}
+.font {
+  font-size: 16px;
+  font-family: verdana;
+  font-style: italic;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #2980b9;
+}
+
+p:first-child {
+  text-align: center;
+}
